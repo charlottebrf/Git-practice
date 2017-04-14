@@ -1,1 +1,26 @@
-Lots of Git commands
+$ git --version
+mkdir gitDir
+cd gitDir
+echo "Git is Awesome" > gitText
+git init
+git add gitText
+git commit -m "First commit"
+rm -rf .git
+git status
+git log
+rm gitText
+touch moreGitText
+git status
+git add moreGitText
+git status
+git rm gitText
+git commit -m "deleted gitText"
+git status
+git checkout "commit_number"
+git checkout master
+git pull
+git push
+git merge
+git branch 
+git diff
+git log 
